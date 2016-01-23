@@ -54,8 +54,13 @@ class InsultPresenter: UIViewController, UITableViewDelegate
     
     private func newPlay()
     {
-        self.currentInsult = self.insultsDatastore.randomInsult()
-        loadComebacks(self.currentInsult)
+        do {
+            try self.currentInsult = self.insultsDatastore.randomInsult()
+            loadComebacks(self.currentInsult)
+        }
+        catch {
+            print("Error: \(error)") // Present error
+        }
 
     }
     

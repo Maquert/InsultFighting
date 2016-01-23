@@ -17,6 +17,10 @@ class InsultsDatastore
     private var insults: [Insult]
     
     
+    //MARK: Errors
+    enum InsultDatastoreError: ErrorType {
+        case NoInsultsFound
+    }
     
     
     // MARK: Init
@@ -30,17 +34,24 @@ class InsultsDatastore
     
     // MARK: Public
     
-    func randomInsult() -> Insult
+    // Gets a random insults and removes it from the array
+    func randomInsult(removeAfterUse:Bool = true) throws -> Insult
     {
+        guard self.insults.count != 0 else {
+            throw InsultDatastoreError.NoInsultsFound
+        }
+        
         let randomNumber = Int.random(self.insults.count)
         let insult = self.insults[randomNumber]
-        self.insults.removeAtIndex(randomNumber)
+        if removeAfterUse { self.insults.removeAtIndex(randomNumber) }
         return insult
     }
     
     
-    
-    // MARK: Private
+    func numberOfInsults() -> Int
+    {
+        return self.insults.count
+    }
     
 }
 
