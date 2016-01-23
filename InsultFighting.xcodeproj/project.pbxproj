@@ -17,6 +17,8 @@
 		F51106971C52BBEF000CD0E4 /* Comebacks.json in Resources */ = {isa = PBXBuildFile; fileRef = F51106961C52BBEF000CD0E4 /* Comebacks.json */; };
 		F51106991C52D757000CD0E4 /* Provider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51106981C52D757000CD0E4 /* Provider.swift */; };
 		F511069C1C52E2A7000CD0E4 /* Numbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F511069B1C52E2A7000CD0E4 /* Numbers.swift */; };
+		F51106D91C53EA69000CD0E4 /* efmi.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F51106D81C53EA69000CD0E4 /* efmi.ttf */; };
+		F51106DA1C53EA69000CD0E4 /* efmi.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F51106D81C53EA69000CD0E4 /* efmi.ttf */; };
 		F584C8FC1C4AB62D00622D2D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F584C8FB1C4AB62D00622D2D /* AppDelegate.swift */; };
 		F584C9011C4AB62D00622D2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F584C8FF1C4AB62D00622D2D /* Main.storyboard */; };
 		F584C9031C4AB62D00622D2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F584C9021C4AB62D00622D2D /* Assets.xcassets */; };
@@ -38,6 +40,7 @@
 		F51106981C52D757000CD0E4 /* Provider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Provider.swift; path = InsultProvider/Provider.swift; sourceTree = "<group>"; };
 		F511069B1C52E2A7000CD0E4 /* Numbers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Numbers.swift; path = Utils/Numbers.swift; sourceTree = "<group>"; };
 		F584C8F81C4AB62D00622D2D /* InsultFighting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InsultFighting.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F51106D81C53EA69000CD0E4 /* efmi.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = efmi.ttf; sourceTree = "<group>"; };
 		F584C8FB1C4AB62D00622D2D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F584C9001C4AB62D00622D2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F584C9021C4AB62D00622D2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -114,6 +117,12 @@
 				F511069B1C52E2A7000CD0E4 /* Numbers.swift */,
 			);
 			name = Utils;
+		F51106D71C53E962000CD0E4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F51106D81C53EA69000CD0E4 /* efmi.ttf */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		F584C8EF1C4AB62D00622D2D = {
@@ -260,11 +269,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+				F51106DA1C53EA69000CD0E4 /* efmi.ttf in Resources */,
 		F584C8F61C4AB62D00622D2D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				F584C9031C4AB62D00622D2D /* Assets.xcassets in Resources */,
+				F51106D91C53EA69000CD0E4 /* efmi.ttf in Resources */,
 				F584C9011C4AB62D00622D2D /* Main.storyboard in Resources */,
 				F51106971C52BBEF000CD0E4 /* Comebacks.json in Resources */,
 				F51106951C52A964000CD0E4 /* Insults.json in Resources */,

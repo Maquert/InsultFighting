@@ -7,6 +7,8 @@
                	{ "id": 5, 		"insults" : [],				"phrase" : "No me pagan por pensar." },
                	{ "id": 6, 		"insults" : [],				"phrase" : "Pues tú lo mismo +1." },
                	{ "id": 7, 		"insults" : [],				"phrase" : "Tú infinito." },
+               	{ "id": 8, 		"insults" : [],				"phrase" : "Vete a dar un paseo largo por un muelle corto, ¡a ver si te ahogas!" },
+               	{ "id": 9, 		"insults" : [],				"phrase" : "¿Has visto a mi abogado?" },
                	{ "id": 10, 	"insults" : [10,11],		"phrase" : "Sí que las hay, sólo que nunca las has aprendido.",  },
                	{ "id": 11, 	"insults" : [12,13],		"phrase" : "Primero deberías dejar de usarla como un plumero." },
                	{ "id": 12, 	"insults" : [14,15],		"phrase" : "Qué apropiado, tú peleas como una vaca." },
@@ -56,5 +58,11 @@
                	{ "id": 62, 	"insults" : [92],		"phrase" : "Nada que no se pueda curar con una buena crema exfoliante." },
                	{ "id": 63, 	"insults" : [93],		"phrase" : "Tu poder sin duda doblega a todo invertebrado." },
                	{ "id": 64, 	"insults" : [94],		"phrase" : "Es que tu toquecito me hace reír de cosquillas." },
+
+               	{ "id": 65, 	"insults" : [95],		"phrase" : "¿Antes o después de afeitarte?" },
+               	{ "id": 66, 	"insults" : [96],		"phrase" : "Me extraña que tu madre nunca te lo haya dicho." },
+               	{ "id": 67, 	"insults" : [97],		"phrase" : "Por fortuna naciste un poco antes y ya estaba la papelera llena." },
+               	{ "id": 68, 	"insults" : [98],		"phrase" : "A juzgar por tu olor, lástima que no digas lo mismo de una ducha y una toalla." },
+               	{ "id": 69, 	"insults" : [99],		"phrase" : "De hecho, yo ya me lo llevo preguntando un rato." }
 			]
 }

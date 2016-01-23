@@ -80,9 +80,15 @@
 			{ "id": 88,	 	"comebacks" : [58], 		"phrase" : "Dicen que mis puños son un arma letal." },
 			{ "id": 89,	 	"comebacks" : [59], 		"phrase" : "Sólo una vez en mi vida vi un cobarde como tú." },
 			{ "id": 90,	 	"comebacks" : [60], 		"phrase" : "Eres el bicho más feo que en mi vida haya encontrado..." },
-			{ "id": 91,	 	"comebacks" : [61], 		"phrase" : "Mi bisabuela de 98 años tiene mejores bíceps que tú." },
+			{ "id": 91,	 	"comebacks" : [61], 		"phrase" : "Mi bisabuela de noventa y ocho años tiene mejores bíceps que tú." },
 			{ "id": 92,	 	"comebacks" : [62], 		"phrase" : "Mis brazos son tan fuertes como troncos." },
 			{ "id": 93,	 	"comebacks" : [63], 		"phrase" : "A pulpos he vencido con estos fuertes brazos." },
 			{ "id": 94,	 	"comebacks" : [64], 		"phrase" : "Veo que en tu boca asoma una mueca de agonía." },
+
+			{ "id": 95,	 	"comebacks" : [65], 		"phrase" : "Por mi imponente aspecto, me han tomado por un oso." },
+			{ "id": 96,	 	"comebacks" : [66], 		"phrase" : "Eres la cosa más torpe que he visto." },
+			{ "id": 97,	 	"comebacks" : [67], 		"phrase" : "Cuando naciste debieron de confundirte con la placenta." },
+			{ "id": 98,	 	"comebacks" : [68], 		"phrase" : "Nunca serás capaz de apreciar como yo el sudor derramado en la batalla." },
+			{ "id": 99,	 	"comebacks" : [69], 		"phrase" : "¿Por qué discutir con alguien tan estúpido?" },
     	]
 }
