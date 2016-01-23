@@ -1,0 +1,24 @@
+{
+"comebacks" : [
+    			{ "id": 1, 		"insults" : [],				"phrase" : "Uy, eso ha dolido" },
+               	{ "id": 2, 		"insults" : [],				"phrase" : "Me he dejado la respuesta en los otros pantalones" },
+               	{ "id": 3, 		"insults" : [],				"phrase" : "Yo soy cola, tú pegamento" },
+               	{ "id": 4, 		"insults" : [],				"phrase" : "¡Mira, un mono de tres cabezas!" },
+               	{ "id": 5, 		"insults" : [],				"phrase" : "No me pagan por pensar" },
+               	{ "id": 6, 		"insults" : [],				"phrase" : "Pues tú lo mismo +1" },
+               	{ "id": 7, 		"insults" : [],				"phrase" : "Tú infinito" },
+               	{ "id": 10, 	"insults" : [0,1],			"phrase" : "Sí que las hay, sólo que nunca las has aprendido",  },
+               	{ "id": 11, 	"insults" : [12,13],		"phrase" : "Primero deberías dejar de usarla como un plumero" },
+               	{ "id": 12, 	"insults" : [14,15],		"phrase" : "Qué apropiado, tú peleas como una vaca." },
+               	{ "id": 13, 	"insults" : [16,17],		"phrase" : "Me alegra que asistieras a tu reunión familiar diaria." },
+               	{ "id": 14, 	"insults" : [18,19],		"phrase" : "Espero que ya hayas aprendido a no tocarte la nariz." },
+               	{ "id": 15, 	"insults" : [20,21],		"phrase" : "Ya te están fastidiando otra vez las almorranas, ¿eh?" },
+               	{ "id": 16, 	"insults" : [22,23],		"phrase" : "Ah, ¿ya has obtenido ese trabajo de barrendero?" },
+               	{ "id": 17, 	"insults" : [24,25],		"phrase" : "Y yo tengo un SALUDO para ti, ¿te enteras?" },
+               	{ "id": 18, 	"insults" : [26,27],		"phrase" : "¿Por qué? ¿Acaso querías pedir uno prestado?" },
+               	{ "id": 19, 	"insults" : [28,29],		"phrase" : "Te habrá enseñado todo lo que sabes." },
+               	{ "id": 20, 	"insults" : [30,31],		"phrase" : "¿TAN rápido corres?." },
+               	{ "id": 21, 	"insults" : [32,33],		"phrase" : "Me haces pensar que alguien ya lo ha hecho." },
+               	{ "id": 22, 	"insults" : [34,35],		"phrase" : "Quería asegurarme de que estuvieras a gusto conmigo." },
+			]
+}

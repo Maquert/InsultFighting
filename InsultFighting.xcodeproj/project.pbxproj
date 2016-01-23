@@ -7,22 +7,54 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F511064F1C5283B5000CD0E4 /* InsultsDatastore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F511064E1C5283B5000CD0E4 /* InsultsDatastore.swift */; };
+		F51106521C5283F6000CD0E4 /* ComebacksTableDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51106511C5283F6000CD0E4 /* ComebacksTableDatasource.swift */; };
+		F51106551C528429000CD0E4 /* ComeBackCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51106541C528429000CD0E4 /* ComeBackCell.swift */; };
+		F51106571C5288E7000CD0E4 /* ComebacksDatastore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51106561C5288E7000CD0E4 /* ComebacksDatastore.swift */; };
+		F51106681C529469000CD0E4 /* InsultTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51106671C529469000CD0E4 /* InsultTest.swift */; };
+		F51106691C529510000CD0E4 /* Insult.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5AA56661C4B07300093322C /* Insult.swift */; };
+		F51106951C52A964000CD0E4 /* Insults.json in Resources */ = {isa = PBXBuildFile; fileRef = F51106941C52A964000CD0E4 /* Insults.json */; };
+		F51106971C52BBEF000CD0E4 /* Comebacks.json in Resources */ = {isa = PBXBuildFile; fileRef = F51106961C52BBEF000CD0E4 /* Comebacks.json */; };
+		F51106991C52D757000CD0E4 /* Provider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51106981C52D757000CD0E4 /* Provider.swift */; };
+		F511069C1C52E2A7000CD0E4 /* Numbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F511069B1C52E2A7000CD0E4 /* Numbers.swift */; };
 		F584C8FC1C4AB62D00622D2D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F584C8FB1C4AB62D00622D2D /* AppDelegate.swift */; };
-		F584C8FE1C4AB62D00622D2D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F584C8FD1C4AB62D00622D2D /* ViewController.swift */; };
 		F584C9011C4AB62D00622D2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F584C8FF1C4AB62D00622D2D /* Main.storyboard */; };
 		F584C9031C4AB62D00622D2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F584C9021C4AB62D00622D2D /* Assets.xcassets */; };
+		F5AA56671C4B07300093322C /* Insult.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5AA56661C4B07300093322C /* Insult.swift */; };
+		F5AA56691C4B10C50093322C /* PlayPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5AA56681C4B10C50093322C /* PlayPresenter.swift */; };
+		F5F015ED1C500C24002A2DCB /* InsultPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F015EC1C500C24002A2DCB /* InsultPresenter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F511064E1C5283B5000CD0E4 /* InsultsDatastore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InsultsDatastore.swift; path = Model/Entity/InsultsDatastore.swift; sourceTree = "<group>"; };
+		F51106511C5283F6000CD0E4 /* ComebacksTableDatasource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ComebacksTableDatasource.swift; path = Controller/Datasources/ComebacksTableDatasource.swift; sourceTree = "<group>"; };
+		F51106541C528429000CD0E4 /* ComeBackCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ComeBackCell.swift; path = View/Cells/ComeBackCell.swift; sourceTree = "<group>"; };
+		F51106561C5288E7000CD0E4 /* ComebacksDatastore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ComebacksDatastore.swift; path = Model/Entity/ComebacksDatastore.swift; sourceTree = "<group>"; };
+		F511065C1C5293A3000CD0E4 /* InsultFightingUnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InsultFightingUnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F51106601C5293A3000CD0E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F51106671C529469000CD0E4 /* InsultTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InsultTest.swift; path = Model/InsultTest.swift; sourceTree = "<group>"; };
+		F51106941C52A964000CD0E4 /* Insults.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Insults.json; path = InsultProvider/Insults.json; sourceTree = "<group>"; };
+		F51106961C52BBEF000CD0E4 /* Comebacks.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Comebacks.json; path = InsultProvider/Comebacks.json; sourceTree = "<group>"; };
+		F51106981C52D757000CD0E4 /* Provider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Provider.swift; path = InsultProvider/Provider.swift; sourceTree = "<group>"; };
+		F511069B1C52E2A7000CD0E4 /* Numbers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Numbers.swift; path = Utils/Numbers.swift; sourceTree = "<group>"; };
 		F584C8F81C4AB62D00622D2D /* InsultFighting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InsultFighting.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F584C8FB1C4AB62D00622D2D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F584C8FD1C4AB62D00622D2D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F584C9001C4AB62D00622D2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F584C9021C4AB62D00622D2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F584C9041C4AB62D00622D2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5AA56661C4B07300093322C /* Insult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Insult.swift; path = Model/Entity/Insult.swift; sourceTree = "<group>"; };
+		F5AA56681C4B10C50093322C /* PlayPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlayPresenter.swift; path = Controller/PlayPresenter.swift; sourceTree = "<group>"; };
+		F5F015EC1C500C24002A2DCB /* InsultPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InsultPresenter.swift; path = Controller/InsultPresenter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		F51106591C5293A3000CD0E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F584C8F51C4AB62D00622D2D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -33,10 +65,62 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F51106501C5283DD000CD0E4 /* Datasources */ = {
+			isa = PBXGroup;
+			children = (
+				F51106511C5283F6000CD0E4 /* ComebacksTableDatasource.swift */,
+			);
+			name = Datasources;
+			sourceTree = "<group>";
+		};
+		F51106531C528414000CD0E4 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				F51106541C528429000CD0E4 /* ComeBackCell.swift */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		F511065D1C5293A3000CD0E4 /* InsultFightingUnitTests */ = {
+			isa = PBXGroup;
+			children = (
+				F51106601C5293A3000CD0E4 /* Info.plist */,
+				F51106661C5293E0000CD0E4 /* Model */,
+			);
+			path = InsultFightingUnitTests;
+			sourceTree = "<group>";
+		};
+		F51106661C5293E0000CD0E4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F51106671C529469000CD0E4 /* InsultTest.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		F51106931C52A901000CD0E4 /* InsultProvider */ = {
+			isa = PBXGroup;
+			children = (
+				F51106981C52D757000CD0E4 /* Provider.swift */,
+				F51106941C52A964000CD0E4 /* Insults.json */,
+				F51106961C52BBEF000CD0E4 /* Comebacks.json */,
+			);
+			name = InsultProvider;
+			sourceTree = "<group>";
+		};
+		F511069A1C52E28B000CD0E4 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				F511069B1C52E2A7000CD0E4 /* Numbers.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
 		F584C8EF1C4AB62D00622D2D = {
 			isa = PBXGroup;
 			children = (
 				F584C8FA1C4AB62D00622D2D /* InsultFighting */,
+				F511065D1C5293A3000CD0E4 /* InsultFightingUnitTests */,
 				F584C8F91C4AB62D00622D2D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -45,6 +129,7 @@
 			isa = PBXGroup;
 			children = (
 				F584C8F81C4AB62D00622D2D /* InsultFighting.app */,
+				F511065C1C5293A3000CD0E4 /* InsultFightingUnitTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -53,17 +138,66 @@
 			isa = PBXGroup;
 			children = (
 				F584C8FB1C4AB62D00622D2D /* AppDelegate.swift */,
-				F584C8FD1C4AB62D00622D2D /* ViewController.swift */,
-				F584C8FF1C4AB62D00622D2D /* Main.storyboard */,
+				F584C90C1C4AB64200622D2D /* Model */,
+				F584C90B1C4AB63A00622D2D /* Controller */,
+				F584C90A1C4AB63200622D2D /* View */,
+				F51106931C52A901000CD0E4 /* InsultProvider */,
+				F511069A1C52E28B000CD0E4 /* Utils */,
 				F584C9021C4AB62D00622D2D /* Assets.xcassets */,
 				F584C9041C4AB62D00622D2D /* Info.plist */,
 			);
 			path = InsultFighting;
 			sourceTree = "<group>";
 		};
+		F584C90A1C4AB63200622D2D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F51106531C528414000CD0E4 /* Cells */,
+				F584C8FF1C4AB62D00622D2D /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		F584C90B1C4AB63A00622D2D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F5AA56681C4B10C50093322C /* PlayPresenter.swift */,
+				F5F015EC1C500C24002A2DCB /* InsultPresenter.swift */,
+				F51106501C5283DD000CD0E4 /* Datasources */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		F584C90C1C4AB64200622D2D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F5AA56661C4B07300093322C /* Insult.swift */,
+				F511064E1C5283B5000CD0E4 /* InsultsDatastore.swift */,
+				F51106561C5288E7000CD0E4 /* ComebacksDatastore.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		F511065B1C5293A3000CD0E4 /* InsultFightingUnitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F51106611C5293A3000CD0E4 /* Build configuration list for PBXNativeTarget "InsultFightingUnitTests" */;
+			buildPhases = (
+				F51106581C5293A3000CD0E4 /* Sources */,
+				F51106591C5293A3000CD0E4 /* Frameworks */,
+				F511065A1C5293A3000CD0E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InsultFightingUnitTests;
+			productName = InsultFightingUnitTests;
+			productReference = F511065C1C5293A3000CD0E4 /* InsultFightingUnitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		F584C8F71C4AB62D00622D2D /* InsultFighting */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F584C9071C4AB62D00622D2D /* Build configuration list for PBXNativeTarget "InsultFighting" */;
@@ -91,6 +225,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "Miguel Hernández Jaso";
 				TargetAttributes = {
+					F511065B1C5293A3000CD0E4 = {
+						CreatedOnToolsVersion = 7.2;
+					};
 					F584C8F71C4AB62D00622D2D = {
 						CreatedOnToolsVersion = 7.2;
 					};
@@ -110,29 +247,56 @@
 			projectRoot = "";
 			targets = (
 				F584C8F71C4AB62D00622D2D /* InsultFighting */,
+				F511065B1C5293A3000CD0E4 /* InsultFightingUnitTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		F511065A1C5293A3000CD0E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F584C8F61C4AB62D00622D2D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				F584C9031C4AB62D00622D2D /* Assets.xcassets in Resources */,
 				F584C9011C4AB62D00622D2D /* Main.storyboard in Resources */,
+				F51106971C52BBEF000CD0E4 /* Comebacks.json in Resources */,
+				F51106951C52A964000CD0E4 /* Insults.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		F51106581C5293A3000CD0E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F51106681C529469000CD0E4 /* InsultTest.swift in Sources */,
+				F51106691C529510000CD0E4 /* Insult.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F584C8F41C4AB62D00622D2D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F584C8FE1C4AB62D00622D2D /* ViewController.swift in Sources */,
+				F5AA56671C4B07300093322C /* Insult.swift in Sources */,
 				F584C8FC1C4AB62D00622D2D /* AppDelegate.swift in Sources */,
+				F511069C1C52E2A7000CD0E4 /* Numbers.swift in Sources */,
+				F51106571C5288E7000CD0E4 /* ComebacksDatastore.swift in Sources */,
+				F51106521C5283F6000CD0E4 /* ComebacksTableDatasource.swift in Sources */,
+				F51106991C52D757000CD0E4 /* Provider.swift in Sources */,
+				F511064F1C5283B5000CD0E4 /* InsultsDatastore.swift in Sources */,
+				F51106551C528429000CD0E4 /* ComeBackCell.swift in Sources */,
+				F5AA56691C4B10C50093322C /* PlayPresenter.swift in Sources */,
+				F5F015ED1C500C24002A2DCB /* InsultPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,6 +314,34 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		F51106621C5293A3000CD0E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = InsultFightingUnitTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mhjaso.InsultFightingUnitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "appletvsimulator appletvos";
+			};
+			name = Debug;
+		};
+		F51106631C5293A3000CD0E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = InsultFightingUnitTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mhjaso.InsultFightingUnitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "appletvsimulator appletvos";
+			};
+			name = Release;
+		};
 		F584C9051C4AB62D00622D2D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -167,6 +359,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -187,7 +380,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = appletvos;
+				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.1;
@@ -224,6 +417,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.1;
@@ -240,6 +434,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mhjaso.InsultFighting;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
 			};
 			name = Debug;
 		};
@@ -258,6 +453,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		F51106611C5293A3000CD0E4 /* Build configuration list for PBXNativeTarget "InsultFightingUnitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F51106621C5293A3000CD0E4 /* Debug */,
+				F51106631C5293A3000CD0E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		F584C8F31C4AB62D00622D2D /* Build configuration list for PBXProject "InsultFighting" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -274,6 +477,7 @@
 				F584C9091C4AB62D00622D2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
