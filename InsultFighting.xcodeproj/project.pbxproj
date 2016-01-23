@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		F511064F1C5283B5000CD0E4 /* InsultsDatastore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F511064E1C5283B5000CD0E4 /* InsultsDatastore.swift */; };
 		F51106521C5283F6000CD0E4 /* ComebacksTableDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51106511C5283F6000CD0E4 /* ComebacksTableDatasource.swift */; };
-		F51106551C528429000CD0E4 /* ComeBackCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51106541C528429000CD0E4 /* ComeBackCell.swift */; };
+		F51106551C528429000CD0E4 /* ComebackCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51106541C528429000CD0E4 /* ComebackCell.swift */; };
 		F51106571C5288E7000CD0E4 /* ComebacksDatastore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51106561C5288E7000CD0E4 /* ComebacksDatastore.swift */; };
 		F51106681C529469000CD0E4 /* InsultTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51106671C529469000CD0E4 /* InsultTest.swift */; };
 		F51106691C529510000CD0E4 /* Insult.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5AA56661C4B07300093322C /* Insult.swift */; };
@@ -28,7 +28,7 @@
 /* Begin PBXFileReference section */
 		F511064E1C5283B5000CD0E4 /* InsultsDatastore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InsultsDatastore.swift; path = Model/Entity/InsultsDatastore.swift; sourceTree = "<group>"; };
 		F51106511C5283F6000CD0E4 /* ComebacksTableDatasource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ComebacksTableDatasource.swift; path = Controller/Datasources/ComebacksTableDatasource.swift; sourceTree = "<group>"; };
-		F51106541C528429000CD0E4 /* ComeBackCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ComeBackCell.swift; path = View/Cells/ComeBackCell.swift; sourceTree = "<group>"; };
+		F51106541C528429000CD0E4 /* ComebackCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ComebackCell.swift; path = View/Cells/ComebackCell.swift; sourceTree = "<group>"; };
 		F51106561C5288E7000CD0E4 /* ComebacksDatastore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ComebacksDatastore.swift; path = Model/Entity/ComebacksDatastore.swift; sourceTree = "<group>"; };
 		F511065C1C5293A3000CD0E4 /* InsultFightingUnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InsultFightingUnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F51106601C5293A3000CD0E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -76,7 +76,7 @@
 		F51106531C528414000CD0E4 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
-				F51106541C528429000CD0E4 /* ComeBackCell.swift */,
+				F51106541C528429000CD0E4 /* ComebackCell.swift */,
 			);
 			name = Cells;
 			sourceTree = "<group>";
@@ -294,7 +294,7 @@
 				F51106521C5283F6000CD0E4 /* ComebacksTableDatasource.swift in Sources */,
 				F51106991C52D757000CD0E4 /* Provider.swift in Sources */,
 				F511064F1C5283B5000CD0E4 /* InsultsDatastore.swift in Sources */,
-				F51106551C528429000CD0E4 /* ComeBackCell.swift in Sources */,
+				F51106551C528429000CD0E4 /* ComebackCell.swift in Sources */,
 				F5AA56691C4B10C50093322C /* PlayPresenter.swift in Sources */,
 				F5F015ED1C500C24002A2DCB /* InsultPresenter.swift in Sources */,
 			);
