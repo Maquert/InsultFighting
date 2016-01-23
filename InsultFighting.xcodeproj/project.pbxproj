@@ -17,6 +17,23 @@
 		F51106971C52BBEF000CD0E4 /* Comebacks.json in Resources */ = {isa = PBXBuildFile; fileRef = F51106961C52BBEF000CD0E4 /* Comebacks.json */; };
 		F51106991C52D757000CD0E4 /* Provider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51106981C52D757000CD0E4 /* Provider.swift */; };
 		F511069C1C52E2A7000CD0E4 /* Numbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F511069B1C52E2A7000CD0E4 /* Numbers.swift */; };
+		F511069F1C53A365000CD0E4 /* App.strings in Resources */ = {isa = PBXBuildFile; fileRef = F511069E1C53A365000CD0E4 /* App.strings */; };
+		F51106A71C53D959000CD0E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51106A61C53D959000CD0E4 /* AppDelegate.swift */; };
+		F51106AE1C53D959000CD0E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F51106AC1C53D959000CD0E4 /* Main.storyboard */; };
+		F51106B01C53D959000CD0E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F51106AF1C53D959000CD0E4 /* Assets.xcassets */; };
+		F51106B31C53D959000CD0E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F51106B11C53D959000CD0E4 /* LaunchScreen.storyboard */; };
+		F51106BE1C53D959000CD0E4 /* InsultFightingMobileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51106BD1C53D959000CD0E4 /* InsultFightingMobileTests.swift */; };
+		F51106C81C53DA33000CD0E4 /* Insult.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5AA56661C4B07300093322C /* Insult.swift */; };
+		F51106C91C53DA36000CD0E4 /* InsultsDatastore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F511064E1C5283B5000CD0E4 /* InsultsDatastore.swift */; };
+		F51106CA1C53DA3B000CD0E4 /* ComebacksDatastore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51106561C5288E7000CD0E4 /* ComebacksDatastore.swift */; };
+		F51106CB1C53DA4F000CD0E4 /* Provider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51106981C52D757000CD0E4 /* Provider.swift */; };
+		F51106CC1C53DA52000CD0E4 /* Insults.json in Resources */ = {isa = PBXBuildFile; fileRef = F51106941C52A964000CD0E4 /* Insults.json */; };
+		F51106CD1C53DA55000CD0E4 /* Comebacks.json in Resources */ = {isa = PBXBuildFile; fileRef = F51106961C52BBEF000CD0E4 /* Comebacks.json */; };
+		F51106CE1C53DA64000CD0E4 /* Numbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F511069B1C52E2A7000CD0E4 /* Numbers.swift */; };
+		F51106D01C53DB86000CD0E4 /* PlayPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5AA56681C4B10C50093322C /* PlayPresenter.swift */; };
+		F51106D11C53DB86000CD0E4 /* InsultPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F015EC1C500C24002A2DCB /* InsultPresenter.swift */; };
+		F51106D31C53DD31000CD0E4 /* ComebacksTableDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51106511C5283F6000CD0E4 /* ComebacksTableDatasource.swift */; };
+		F51106D51C53DD72000CD0E4 /* ComebackCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51106541C528429000CD0E4 /* ComebackCell.swift */; };
 		F51106D91C53EA69000CD0E4 /* efmi.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F51106D81C53EA69000CD0E4 /* efmi.ttf */; };
 		F51106DA1C53EA69000CD0E4 /* efmi.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F51106D81C53EA69000CD0E4 /* efmi.ttf */; };
 		F584C8FC1C4AB62D00622D2D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F584C8FB1C4AB62D00622D2D /* AppDelegate.swift */; };
@@ -26,6 +43,23 @@
 		F5AA56691C4B10C50093322C /* PlayPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5AA56681C4B10C50093322C /* PlayPresenter.swift */; };
 		F5F015ED1C500C24002A2DCB /* InsultPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F015EC1C500C24002A2DCB /* InsultPresenter.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F51106BA1C53D959000CD0E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F584C8F01C4AB62D00622D2D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F51106A31C53D959000CD0E4;
+			remoteInfo = InsultFightingMobile;
+		};
+		F51106C61C53D9B4000CD0E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F584C8F01C4AB62D00622D2D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F584C8F71C4AB62D00622D2D;
+			remoteInfo = InsultFighting;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		F511064E1C5283B5000CD0E4 /* InsultsDatastore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InsultsDatastore.swift; path = Model/Entity/InsultsDatastore.swift; sourceTree = "<group>"; };
@@ -39,8 +73,18 @@
 		F51106961C52BBEF000CD0E4 /* Comebacks.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Comebacks.json; path = InsultProvider/Comebacks.json; sourceTree = "<group>"; };
 		F51106981C52D757000CD0E4 /* Provider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Provider.swift; path = InsultProvider/Provider.swift; sourceTree = "<group>"; };
 		F511069B1C52E2A7000CD0E4 /* Numbers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Numbers.swift; path = Utils/Numbers.swift; sourceTree = "<group>"; };
-		F584C8F81C4AB62D00622D2D /* InsultFighting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InsultFighting.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F511069E1C53A365000CD0E4 /* App.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = App.strings; path = Resources/App.strings; sourceTree = "<group>"; };
+		F51106A41C53D959000CD0E4 /* InsultFightingMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InsultFightingMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F51106A61C53D959000CD0E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F51106AD1C53D959000CD0E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F51106AF1C53D959000CD0E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F51106B21C53D959000CD0E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F51106B41C53D959000CD0E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F51106B91C53D959000CD0E4 /* InsultFightingMobileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InsultFightingMobileTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F51106BD1C53D959000CD0E4 /* InsultFightingMobileTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsultFightingMobileTests.swift; sourceTree = "<group>"; };
+		F51106BF1C53D959000CD0E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F51106D81C53EA69000CD0E4 /* efmi.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = efmi.ttf; sourceTree = "<group>"; };
+		F584C8F81C4AB62D00622D2D /* InsultFightingTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InsultFightingTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F584C8FB1C4AB62D00622D2D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F584C9001C4AB62D00622D2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F584C9021C4AB62D00622D2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -52,6 +96,20 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		F51106591C5293A3000CD0E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F51106A11C53D959000CD0E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F51106B61C53D959000CD0E4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -82,6 +140,7 @@
 				F51106541C528429000CD0E4 /* ComebackCell.swift */,
 			);
 			name = Cells;
+			path = InsultFighting;
 			sourceTree = "<group>";
 		};
 		F511065D1C5293A3000CD0E4 /* InsultFightingUnitTests */ = {
@@ -109,6 +168,7 @@
 				F51106961C52BBEF000CD0E4 /* Comebacks.json */,
 			);
 			name = InsultProvider;
+			path = InsultFighting;
 			sourceTree = "<group>";
 		};
 		F511069A1C52E28B000CD0E4 /* Utils */ = {
@@ -117,6 +177,69 @@
 				F511069B1C52E2A7000CD0E4 /* Numbers.swift */,
 			);
 			name = Utils;
+			path = InsultFighting;
+			sourceTree = "<group>";
+		};
+		F511069D1C53A342000CD0E4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F584C9021C4AB62D00622D2D /* Assets.xcassets */,
+				F584C9041C4AB62D00622D2D /* Info.plist */,
+				F511069E1C53A365000CD0E4 /* App.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		F51106A51C53D959000CD0E4 /* InsultFightingMobile */ = {
+			isa = PBXGroup;
+			children = (
+				F51106A61C53D959000CD0E4 /* AppDelegate.swift */,
+				F51106AC1C53D959000CD0E4 /* Main.storyboard */,
+				F51106D21C53DBA2000CD0E4 /* Resources */,
+			);
+			path = InsultFightingMobile;
+			sourceTree = "<group>";
+		};
+		F51106BC1C53D959000CD0E4 /* InsultFightingMobileTests */ = {
+			isa = PBXGroup;
+			children = (
+				F51106BD1C53D959000CD0E4 /* InsultFightingMobileTests.swift */,
+				F51106BF1C53D959000CD0E4 /* Info.plist */,
+			);
+			path = InsultFightingMobileTests;
+			sourceTree = "<group>";
+		};
+		F51106CF1C53DADA000CD0E4 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				F584C90C1C4AB64200622D2D /* Model */,
+				F584C90B1C4AB63A00622D2D /* Controller */,
+				F51106D41C53DD61000CD0E4 /* Views */,
+				F51106931C52A901000CD0E4 /* InsultProvider */,
+				F511069A1C52E28B000CD0E4 /* Utils */,
+				F51106D71C53E962000CD0E4 /* Resources */,
+			);
+			name = Shared;
+			sourceTree = "<group>";
+		};
+		F51106D21C53DBA2000CD0E4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F51106AF1C53D959000CD0E4 /* Assets.xcassets */,
+				F51106B11C53D959000CD0E4 /* LaunchScreen.storyboard */,
+				F51106B41C53D959000CD0E4 /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		F51106D41C53DD61000CD0E4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F51106531C528414000CD0E4 /* Cells */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
 		F51106D71C53E962000CD0E4 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -128,8 +251,11 @@
 		F584C8EF1C4AB62D00622D2D = {
 			isa = PBXGroup;
 			children = (
-				F584C8FA1C4AB62D00622D2D /* InsultFighting */,
+				F51106CF1C53DADA000CD0E4 /* Shared */,
+				F584C8FA1C4AB62D00622D2D /* InsultFightingTV */,
+				F51106A51C53D959000CD0E4 /* InsultFightingMobile */,
 				F511065D1C5293A3000CD0E4 /* InsultFightingUnitTests */,
+				F51106BC1C53D959000CD0E4 /* InsultFightingMobileTests */,
 				F584C8F91C4AB62D00622D2D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -137,31 +263,28 @@
 		F584C8F91C4AB62D00622D2D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F584C8F81C4AB62D00622D2D /* InsultFighting.app */,
+				F584C8F81C4AB62D00622D2D /* InsultFightingTV.app */,
 				F511065C1C5293A3000CD0E4 /* InsultFightingUnitTests.xctest */,
+				F51106A41C53D959000CD0E4 /* InsultFightingMobile.app */,
+				F51106B91C53D959000CD0E4 /* InsultFightingMobileTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F584C8FA1C4AB62D00622D2D /* InsultFighting */ = {
+		F584C8FA1C4AB62D00622D2D /* InsultFightingTV */ = {
 			isa = PBXGroup;
 			children = (
 				F584C8FB1C4AB62D00622D2D /* AppDelegate.swift */,
-				F584C90C1C4AB64200622D2D /* Model */,
-				F584C90B1C4AB63A00622D2D /* Controller */,
 				F584C90A1C4AB63200622D2D /* View */,
-				F51106931C52A901000CD0E4 /* InsultProvider */,
-				F511069A1C52E28B000CD0E4 /* Utils */,
-				F584C9021C4AB62D00622D2D /* Assets.xcassets */,
-				F584C9041C4AB62D00622D2D /* Info.plist */,
+				F511069D1C53A342000CD0E4 /* Resources */,
 			);
+			name = InsultFightingTV;
 			path = InsultFighting;
 			sourceTree = "<group>";
 		};
 		F584C90A1C4AB63200622D2D /* View */ = {
 			isa = PBXGroup;
 			children = (
-				F51106531C528414000CD0E4 /* Cells */,
 				F584C8FF1C4AB62D00622D2D /* Main.storyboard */,
 			);
 			name = View;
@@ -175,6 +298,7 @@
 				F51106501C5283DD000CD0E4 /* Datasources */,
 			);
 			name = Controller;
+			path = InsultFighting;
 			sourceTree = "<group>";
 		};
 		F584C90C1C4AB64200622D2D /* Model */ = {
@@ -185,6 +309,7 @@
 				F51106561C5288E7000CD0E4 /* ComebacksDatastore.swift */,
 			);
 			name = Model;
+			path = InsultFighting;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,15 +326,51 @@
 			buildRules = (
 			);
 			dependencies = (
+				F51106C71C53D9B4000CD0E4 /* PBXTargetDependency */,
 			);
 			name = InsultFightingUnitTests;
 			productName = InsultFightingUnitTests;
 			productReference = F511065C1C5293A3000CD0E4 /* InsultFightingUnitTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		F584C8F71C4AB62D00622D2D /* InsultFighting */ = {
+		F51106A31C53D959000CD0E4 /* InsultFightingMobile */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F584C9071C4AB62D00622D2D /* Build configuration list for PBXNativeTarget "InsultFighting" */;
+			buildConfigurationList = F51106C01C53D959000CD0E4 /* Build configuration list for PBXNativeTarget "InsultFightingMobile" */;
+			buildPhases = (
+				F51106A01C53D959000CD0E4 /* Sources */,
+				F51106A11C53D959000CD0E4 /* Frameworks */,
+				F51106A21C53D959000CD0E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InsultFightingMobile;
+			productName = InsultFightingMobile;
+			productReference = F51106A41C53D959000CD0E4 /* InsultFightingMobile.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F51106B81C53D959000CD0E4 /* InsultFightingMobileTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F51106C31C53D959000CD0E4 /* Build configuration list for PBXNativeTarget "InsultFightingMobileTests" */;
+			buildPhases = (
+				F51106B51C53D959000CD0E4 /* Sources */,
+				F51106B61C53D959000CD0E4 /* Frameworks */,
+				F51106B71C53D959000CD0E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F51106BB1C53D959000CD0E4 /* PBXTargetDependency */,
+			);
+			name = InsultFightingMobileTests;
+			productName = InsultFightingMobileTests;
+			productReference = F51106B91C53D959000CD0E4 /* InsultFightingMobileTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F584C8F71C4AB62D00622D2D /* InsultFightingTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F584C9071C4AB62D00622D2D /* Build configuration list for PBXNativeTarget "InsultFightingTV" */;
 			buildPhases = (
 				F584C8F41C4AB62D00622D2D /* Sources */,
 				F584C8F51C4AB62D00622D2D /* Frameworks */,
@@ -219,9 +380,9 @@
 			);
 			dependencies = (
 			);
-			name = InsultFighting;
+			name = InsultFightingTV;
 			productName = InsultFighting;
-			productReference = F584C8F81C4AB62D00622D2D /* InsultFighting.app */;
+			productReference = F584C8F81C4AB62D00622D2D /* InsultFightingTV.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -236,9 +397,19 @@
 				TargetAttributes = {
 					F511065B1C5293A3000CD0E4 = {
 						CreatedOnToolsVersion = 7.2;
+						TestTargetID = F584C8F71C4AB62D00622D2D;
+					};
+					F51106A31C53D959000CD0E4 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 2JBP2DRL27;
+					};
+					F51106B81C53D959000CD0E4 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = F51106A31C53D959000CD0E4;
 					};
 					F584C8F71C4AB62D00622D2D = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 2JBP2DRL27;
 					};
 				};
 			};
@@ -255,8 +426,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F584C8F71C4AB62D00622D2D /* InsultFighting */,
+				F584C8F71C4AB62D00622D2D /* InsultFightingTV */,
 				F511065B1C5293A3000CD0E4 /* InsultFightingUnitTests */,
+				F51106A31C53D959000CD0E4 /* InsultFightingMobile */,
+				F51106B81C53D959000CD0E4 /* InsultFightingMobileTests */,
 			);
 		};
 /* End PBXProject section */
@@ -269,7 +442,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F51106A21C53D959000CD0E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F51106B31C53D959000CD0E4 /* LaunchScreen.storyboard in Resources */,
 				F51106DA1C53EA69000CD0E4 /* efmi.ttf in Resources */,
+				F51106CD1C53DA55000CD0E4 /* Comebacks.json in Resources */,
+				F51106B01C53D959000CD0E4 /* Assets.xcassets in Resources */,
+				F51106CC1C53DA52000CD0E4 /* Insults.json in Resources */,
+				F51106AE1C53D959000CD0E4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F51106B71C53D959000CD0E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F584C8F61C4AB62D00622D2D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -277,6 +469,7 @@
 				F584C9031C4AB62D00622D2D /* Assets.xcassets in Resources */,
 				F51106D91C53EA69000CD0E4 /* efmi.ttf in Resources */,
 				F584C9011C4AB62D00622D2D /* Main.storyboard in Resources */,
+				F511069F1C53A365000CD0E4 /* App.strings in Resources */,
 				F51106971C52BBEF000CD0E4 /* Comebacks.json in Resources */,
 				F51106951C52A964000CD0E4 /* Insults.json in Resources */,
 			);
@@ -291,6 +484,31 @@
 			files = (
 				F51106681C529469000CD0E4 /* InsultTest.swift in Sources */,
 				F51106691C529510000CD0E4 /* Insult.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F51106A01C53D959000CD0E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F51106D51C53DD72000CD0E4 /* ComebackCell.swift in Sources */,
+				F51106CA1C53DA3B000CD0E4 /* ComebacksDatastore.swift in Sources */,
+				F51106D01C53DB86000CD0E4 /* PlayPresenter.swift in Sources */,
+				F51106D11C53DB86000CD0E4 /* InsultPresenter.swift in Sources */,
+				F51106CB1C53DA4F000CD0E4 /* Provider.swift in Sources */,
+				F51106A71C53D959000CD0E4 /* AppDelegate.swift in Sources */,
+				F51106CE1C53DA64000CD0E4 /* Numbers.swift in Sources */,
+				F51106C91C53DA36000CD0E4 /* InsultsDatastore.swift in Sources */,
+				F51106C81C53DA33000CD0E4 /* Insult.swift in Sources */,
+				F51106D31C53DD31000CD0E4 /* ComebacksTableDatasource.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F51106B51C53D959000CD0E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F51106BE1C53D959000CD0E4 /* InsultFightingMobileTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,7 +531,36 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		F51106BB1C53D959000CD0E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F51106A31C53D959000CD0E4 /* InsultFightingMobile */;
+			targetProxy = F51106BA1C53D959000CD0E4 /* PBXContainerItemProxy */;
+		};
+		F51106C71C53D9B4000CD0E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F584C8F71C4AB62D00622D2D /* InsultFightingTV */;
+			targetProxy = F51106C61C53D9B4000CD0E4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
+		F51106AC1C53D959000CD0E4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F51106AD1C53D959000CD0E4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F51106B11C53D959000CD0E4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F51106B21C53D959000CD0E4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
 		F584C8FF1C4AB62D00622D2D /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -328,6 +575,7 @@
 		F51106621C5293A3000CD0E4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = InsultFightingUnitTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
@@ -336,12 +584,14 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = "appletvsimulator appletvos";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InsultFighting.app/InsultFighting";
 			};
 			name = Debug;
 		};
 		F51106631C5293A3000CD0E4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = InsultFightingUnitTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
@@ -350,6 +600,67 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = "appletvsimulator appletvos";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InsultFighting.app/InsultFighting";
+			};
+			name = Release;
+		};
+		F51106C11C53D959000CD0E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = InsultFightingMobile/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mhjaso.InsultFightingMobile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F51106C21C53D959000CD0E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = InsultFightingMobile/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mhjaso.InsultFightingMobile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F51106C41C53D959000CD0E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = InsultFightingMobileTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mhjaso.InsultFightingMobileTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InsultFightingMobile.app/InsultFightingMobile";
+			};
+			name = Debug;
+		};
+		F51106C51C53D959000CD0E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = InsultFightingMobileTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mhjaso.InsultFightingMobileTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InsultFightingMobile.app/InsultFightingMobile";
 			};
 			name = Release;
 		};
@@ -441,6 +752,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = InsultFighting/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mhjaso.InsultFighting;
@@ -454,6 +766,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = InsultFighting/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mhjaso.InsultFighting;
@@ -472,6 +785,22 @@
 			);
 			defaultConfigurationIsVisible = 0;
 		};
+		F51106C01C53D959000CD0E4 /* Build configuration list for PBXNativeTarget "InsultFightingMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F51106C11C53D959000CD0E4 /* Debug */,
+				F51106C21C53D959000CD0E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F51106C31C53D959000CD0E4 /* Build configuration list for PBXNativeTarget "InsultFightingMobileTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F51106C41C53D959000CD0E4 /* Debug */,
+				F51106C51C53D959000CD0E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		F584C8F31C4AB62D00622D2D /* Build configuration list for PBXProject "InsultFighting" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -481,7 +810,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F584C9071C4AB62D00622D2D /* Build configuration list for PBXNativeTarget "InsultFighting" */ = {
+		F584C9071C4AB62D00622D2D /* Build configuration list for PBXNativeTarget "InsultFightingTV" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F584C9081C4AB62D00622D2D /* Debug */,

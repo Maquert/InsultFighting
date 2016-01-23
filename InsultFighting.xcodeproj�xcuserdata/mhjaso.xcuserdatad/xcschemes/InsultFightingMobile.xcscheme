@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F584C8F71C4AB62D00622D2D"
-               BuildableName = "InsultFighting.app"
-               BlueprintName = "InsultFighting"
+               BlueprintIdentifier = "F51106A31C53D959000CD0E4"
+               BuildableName = "InsultFightingMobile.app"
+               BlueprintName = "InsultFightingMobile"
                ReferencedContainer = "container:InsultFighting.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -32,9 +32,9 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F511065B1C5293A3000CD0E4"
-               BuildableName = "InsultFightingUnitTests.xctest"
-               BlueprintName = "InsultFightingUnitTests"
+               BlueprintIdentifier = "F51106B81C53D959000CD0E4"
+               BuildableName = "InsultFightingMobileTests.xctest"
+               BlueprintName = "InsultFightingMobileTests"
                ReferencedContainer = "container:InsultFighting.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -42,9 +42,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F584C8F71C4AB62D00622D2D"
-            BuildableName = "InsultFighting.app"
-            BlueprintName = "InsultFighting"
+            BlueprintIdentifier = "F51106A31C53D959000CD0E4"
+            BuildableName = "InsultFightingMobile.app"
+            BlueprintName = "InsultFightingMobile"
             ReferencedContainer = "container:InsultFighting.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -65,9 +65,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F584C8F71C4AB62D00622D2D"
-            BuildableName = "InsultFighting.app"
-            BlueprintName = "InsultFighting"
+            BlueprintIdentifier = "F51106A31C53D959000CD0E4"
+            BuildableName = "InsultFightingMobile.app"
+            BlueprintName = "InsultFightingMobile"
             ReferencedContainer = "container:InsultFighting.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -84,9 +84,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F584C8F71C4AB62D00622D2D"
-            BuildableName = "InsultFighting.app"
-            BlueprintName = "InsultFighting"
+            BlueprintIdentifier = "F51106A31C53D959000CD0E4"
+            BuildableName = "InsultFightingMobile.app"
+            BlueprintName = "InsultFightingMobile"
             ReferencedContainer = "container:InsultFighting.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

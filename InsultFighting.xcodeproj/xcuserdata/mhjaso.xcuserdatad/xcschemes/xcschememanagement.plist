@@ -4,7 +4,12 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>InsultFighting.xcscheme</key>
+		<key>InsultFightingMobile.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>InsultFightingTV.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -13,6 +18,16 @@
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>F511065B1C5293A3000CD0E4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F51106A31C53D959000CD0E4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F51106B81C53D959000CD0E4</key>
 		<dict>
 			<key>primary</key>
 			<true/>
