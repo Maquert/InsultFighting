@@ -59,6 +59,7 @@ class InsultPresenter: UIViewController, UITableViewDelegate
             loadComebacks(self.currentInsult)
         }
         catch {
+            self.insult.text = "Por favor, introduce el disco 3."
             print("Error: \(error)") // Present error
         }
 
